@@ -4,7 +4,7 @@ This repo includes SMO-based SVM and two SVM variants, PEGASOS and LSSVM. The ma
 # Running Guidelines
 The main function of SMO-based SVM, PEGASOS and LSSVM is respectively SVM_official.py, PEGASOS_main.py and LSSVM_main.py. You can just create a new Python project and put all the files in this repo into your project folder. Directly running the three files will work.
 ## Environment
-* Windows (Simply use Pycharm)
+* Windows
 * Python 3.10 (It has been tested that using Python 3.7 will encounter error in joblib package)
 * scikit-learn 1.3.2
 * numpy, math, joblib...
