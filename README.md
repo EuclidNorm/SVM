@@ -31,14 +31,14 @@ The idea behind such design is that PEGASOS brings the constraint term of the co
 ## LSSVM
 LSSVM rather turns the minimization problem into an equation-solving problem. It tries to solve the following minimization problem:
 <div align=center>
-<img src="https://github.com/ChiangyuMo/SVM/assets/70008102/dc57385b-1557-4802-81c0-42536d498898" width=500>
+<img src="https://github.com/ChiangyuMo/SVM/assets/70008102/dc57385b-1557-4802-81c0-42536d498898" width=800>
 </div>
 <div align=center>
-<img src="https://github.com/ChiangyuMo/SVM/assets/70008102/d5cc1e92-aca0-4729-a2c0-11697f0a0ea8" width=500>
+<img src="https://github.com/ChiangyuMo/SVM/assets/70008102/d5cc1e92-aca0-4729-a2c0-11697f0a0ea8" width=800>
 </div>
 Where γ is a hyperparameter similar to C mentioned above.There are no longer any inequality constraints, and by constructing its Lagrangian and KKT conditions we obtain:
 <div align=center>
-<img src="https://github.com/ChiangyuMo/SVM/assets/70008102/4cf58b07-4615-46ea-8ca3-e6acc51169e3" width=500>
+<img src="https://github.com/ChiangyuMo/SVM/assets/70008102/4cf58b07-4615-46ea-8ca3-e6acc51169e3" width=800>
 </div>
 Where Ω(i,j)=K(i,j)*yi*yj, K is the kernel function, α the Lagrange operator to be solved, b the bias term to be solved. The linear system could be easily solved.
 
